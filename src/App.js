@@ -29,7 +29,7 @@ class App extends Component {
       id: this.state.id,
       title:this.state.item
     }
-    const updatedItems = [... this.state.items, newItem]
+    const updatedItems = [...this.state.items, newItem]
 
     this.setState({
       items: updatedItems,
