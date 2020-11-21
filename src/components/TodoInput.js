@@ -21,7 +21,12 @@ export default class TodoInput extends Component {
                             onChange={handleChange}
                         />
                     </div>
-                    <button type="submit" className="btn btn-block btn-primary text-capitalize mt-3">add item</button>
+                    <button 
+                        type="submit" 
+                        className="btn btn-block btn-primary text-capitalize mt-3"
+                    >
+                    add item
+                    </button>
                 </form>
             
             </div>
